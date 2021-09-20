@@ -24,6 +24,5 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = var.instance_name
-    Usage = var.usage1
   }
 }
